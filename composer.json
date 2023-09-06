@@ -1,0 +1,16 @@
+{
+  "name": "kwdit/boilerplate-elementor-extension-main",
+  "description": "",
+  "keywords": ["wordpress", "plugin"],
+  "homepage": "https://github.com/kwdit/boilerplate-elementor-extension-main",
+  "authors": [
+    {
+      "name": "Matthew Rideout",
+      "homepage": "https://github.com/mdrideout"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=5.6"
+  }
+}

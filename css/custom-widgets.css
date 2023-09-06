@@ -1,0 +1,124 @@
+.innovare-box-widget a {
+	display: block;
+}
+
+.innovare-box-widget a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.innovare-box-widget .content {
+    padding: 3rem;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.innovare-box-widget .content-inner {
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.innovare-box-widget .content-inner .title--xs {
+    margin: 25px;
+}
+
+.innovare-box-widget .title--xs {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.innovare-box-widget h2 i {
+	margin-left: 5px;
+    transform: translateY(-1.5px);
+    font-size: 10px;
+}
+
+.innovare-box-widget .title--xs img {
+	width: 35px;
+	margin-right: 10px;
+	transform: translateY(-1.5px);
+}
+
+.innovare-box-widget .hover-content {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100% !important;
+    background-color: #7F4596;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.innovare-box-widget .hover-content h2,
+.innovare-box-widget .hover-content hr,
+.innovare-box-widget .hover-content p {
+	opacity: 0;
+}
+
+.innovare-box-widget .hover-content hr {
+	background-color: white;
+    border: none;
+    height: 1px;
+}
+
+.innovare-box-widget .hover-content p {
+	color: white;
+	font-size: 13px;
+	margin: 20px 0 25px 0;
+}
+
+.innovare-box-widget .hover-content span {
+	display: block;
+	text-transform: uppercase;
+	font-size: 11px;
+	letter-spacing: 1px;
+	color: white;
+}
+
+.innovare-box-widget a:hover .hover-content {
+    opacity: 1;
+    animation-name: itemHover;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.innovare-box-widget a:hover .hover-content h2,
+.innovare-box-widget a:hover .hover-content hr,
+.innovare-box-widget a:hover .hover-content p {
+	opacity: 1;
+    transition: opacity 0.5s ease-in-out 0.2s, transform 0.5s ease-in-out 0.2s;
+}
+
+.innovare-box-widget a:hover .content {
+    opacity: 0;
+}
+
+@keyframes itemHover {
+    0% {
+        bottom: 100%
+    }
+
+    100% {
+        bottom: 0
+    }
+}
