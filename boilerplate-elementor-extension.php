@@ -2,10 +2,10 @@
 /**
  * Plugin Name: Boilerplate Elementor Extension
  * Description: Just the boilerplate code for creating a custom elementor extension.
- * Plugin URI:  https://rideout.studio
- * Version:     1.0.0
- * Author:      Matthew Rideout
- * Author URI:  https://rideout.studio
+ * Plugin URI:  https://kwd-it.co.uk/
+ * Version:     1.0.1
+ * Author:      Kirk Johnston
+ * Author URI:  https://uk.linkedin.com/in/kirk-johnston-1362a451
  * Text Domain: boilerplate-elementor-extension
  */
 
@@ -28,11 +28,11 @@ final class Boilerplate_Elementor_Extension {
 	/**
 	 * Plugin Version
 	 *
-	 * @since 1.0.0
+	 * @since 1.0.1
 	 *
 	 * @var string The plugin version.
 	 */
-	const VERSION = '1.0.0';
+	const VERSION = '1.0.1';
 
 	/**
 	 * Minimum Elementor Version
